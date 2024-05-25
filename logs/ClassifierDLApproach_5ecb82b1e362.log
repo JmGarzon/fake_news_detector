@@ -1,0 +1,11 @@
+Training started - epochs: 10 - learning_rate: 0.001 - batch_size: 8 - training_examples: 57838 - classes: 2
+Epoch 0/10 - 18,06s - loss: 3102.2988 - acc: 0.8786715 - batches: 7230
+Epoch 1/10 - 21,70s - loss: 2857.584 - acc: 0.9152257 - batches: 7230
+Epoch 2/10 - 21,63s - loss: 2773.1445 - acc: 0.9261366 - batches: 7230
+Epoch 3/10 - 22,33s - loss: 2715.2883 - acc: 0.9342636 - batches: 7230
+Epoch 4/10 - 22,99s - loss: 2672.3757 - acc: 0.9405231 - batches: 7230
+Epoch 5/10 - 24,94s - loss: 2643.2273 - acc: 0.94448286 - batches: 7230
+Epoch 6/10 - 24,58s - loss: 2619.9226 - acc: 0.94828695 - batches: 7230
+Epoch 7/10 - 23,90s - loss: 2600.9397 - acc: 0.95120925 - batches: 7230
+Epoch 8/10 - 24,09s - loss: 2589.2036 - acc: 0.9534571 - batches: 7230
+Epoch 9/10 - 22,72s - loss: 2579.7837 - acc: 0.9553246 - batches: 7230
