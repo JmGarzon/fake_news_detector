@@ -35,6 +35,7 @@ To properly run this project, you need to have Git Large File Storage (LFS) inst
     git lfs install
     git lfs pull
     ```
+3. **Extract the '.zip' files of interest.**
 
 ## Usage
 
