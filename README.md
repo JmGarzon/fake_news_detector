@@ -1,6 +1,4 @@
 # PENDIENTES: 
-- Add G-drive link.
-- Arreglar *etiquetas* del dataset y actualizar el script de preprocesamiento.
 - Documentar el script de preprocesamiento. Configurar carpeta de entrada y salida en el repositorio.
 - Añadir script de análisis, documentación en el readme y en el codigo.
 
@@ -26,9 +24,12 @@ This project is part of the class "Mining of Massive Data Sets" at Universidad E
 ## Requirements
 - Python libraries used can be installed using the `requierements.txt`.
 - You need to have Git Large File Storage (LFS) installed. This is required to download the models and datasets used in the project.
+- This project was built using:
+    * Apache Spark v3.5.1
+    * Spark NLP v5.3.3
 
 ## Models and Datasets:
-* The contents of the `data/` and `models/` folders can be downloaded from: [LINK]
+* The contents of the `data/` and `models/` folders can be downloaded from [here.](https://drive.google.com/drive/folders/1cQ5ouuM6L6_Ah4pESz6eQ18-Aftt9QfJ?usp=sharing)
 
 ## Installation
 
