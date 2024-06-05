@@ -1,5 +1,4 @@
 # PENDIENTES: 
-- Documentar el script de preprocesamiento. Configurar carpeta de entrada y salida en el repositorio.
 - Añadir script de análisis, documentación en el readme y en el codigo.
 
 # Fake News Detector
@@ -52,6 +51,9 @@ This project is part of the class "Mining of Massive Data Sets" at Universidad E
 
 ### Data preparation:
 * Run `notebooks/Data_preproccesing.ipynb`, to read multiple CSV files in a `base_csv` folder containing news articles datasets. It processes them to standardize their schema, combines them into a single DataFrame, and saves the final DataFrame as a Parquet file. The steps include reading the data, standardizing the schemas, checking for duplicates, and saving the final processed data. The resulting parquet file should be placed inside `\data\news_data`.
+
+### Feature Engineering
+* Run `notebooks/feature engineering.ipynb`,to read the parquet file, create a RDD and run a MapReduce to count the words in both real and fake titles and texts.
 
 ### Models comparison:
 *  Run `notebooks/Fake News - Model Comparison - Spark.ipynb` to train and compare a TFidF-based Logistic Regression,  a TFidF-based Random Forest, and a classifier using BERT embeddings.
